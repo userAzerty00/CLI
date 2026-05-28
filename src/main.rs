@@ -2,6 +2,7 @@ use std::env;
 use std::fs;
 use std::process;
 
+//This is the main function of the program, it is the entry point of the program
 fn main() {
     let args: Vec<String> = env::args().collect();
 
