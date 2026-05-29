@@ -18,6 +18,7 @@ fn main() {
     run(config);
 }
 
+// This function takes a Config struct as an argument and reads the contents of the file specified in the Config struct, then prints the contents to the console
 fn run(config: Config) {
     let contents =
         fs::read_to_string(&config.filename)
